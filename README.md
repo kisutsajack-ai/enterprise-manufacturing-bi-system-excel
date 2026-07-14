@@ -1,6 +1,6 @@
 # Enterprise Manufacturing Business Intelligence System (EMBIS)
 
-![Dashboard Preview](Images/Dashboard_Index.png)
+<img src="Images/Dashboard_Index.png" width="100%">
 
 ## Project Overview
 
