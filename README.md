@@ -1,4 +1,4 @@
-![Uploading Dashboard_Index.png…]()
+![Dashboard_Index.png…]()
 
 # Enterprise Manufacturing Business Intelligence System (EMBIS)
 
