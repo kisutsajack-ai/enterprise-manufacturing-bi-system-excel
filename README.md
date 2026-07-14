@@ -1,54 +1,111 @@
 # Enterprise Manufacturing Business Intelligence System (EMBIS)
 
+<p align="center">
 <img src="Images/Dashboard_Index.png" width="100%">
+</p>
 
-## Project Overview
+<p align="center">
 
-The Enterprise Manufacturing Business Intelligence System (EMBIS) is a complete Business Intelligence solution developed in Microsoft Excel.
+![Excel](https://img.shields.io/badge/Microsoft%20Excel-365-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Power Query](https://img.shields.io/badge/Power%20Query-ETL-yellow?style=for-the-badge)
+![Power Pivot](https://img.shields.io/badge/Power%20Pivot-Data%20Model-blue?style=for-the-badge)
+![DAX](https://img.shields.io/badge/DAX-Measures-orange?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
-The project transforms raw manufacturing data into interactive executive dashboards using Power Query, Power Pivot, DAX, PivotTables, PivotCharts and slicers.
-
-The solution enables business users to monitor sales, production, inventory, finance, customers and suppliers from a single reporting platform.
+</p>
 
 ---
 
-## Objectives
+# Enterprise Manufacturing Business Intelligence System (EMBIS)
+
+A complete **Business Intelligence reporting solution** developed in **Microsoft Excel** using **Power Query**, **Power Pivot**, **DAX**, **PivotTables**, **PivotCharts**, and **Interactive Dashboards**.
+
+The solution transforms raw manufacturing data into executive-level insights across Sales, Production, Inventory, Finance, Customer, and Supplier operations.
+
+---
+
+# Project Objectives
 
 The project was designed to:
 
-- Automate data preparation using Power Query
-- Implement a Star Schema data model
-- Develop reusable DAX measures
-- Create interactive dashboards
-- Provide executive-level decision support
+- Automate data extraction and transformation using Power Query
+- Design a Star Schema data model
+- Build reusable DAX measures
+- Develop interactive executive dashboards
+- Enable business users to make data-driven decisions
+- Demonstrate an end-to-end Business Intelligence workflow
 
 ---
 
-## Technology Stack
+# Business Problem
 
-- Microsoft Excel
-- Power Query
-- Power Pivot
-- DAX
-- PivotTables
-- PivotCharts
-- Slicers
+Manufacturing organizations often manage operational data across multiple departments, making it difficult to gain a consolidated view of business performance.
+
+EMBIS solves this challenge by integrating operational data into a centralized reporting solution that provides real-time insights into:
+
+- Sales Performance
+- Production Operations
+- Inventory Management
+- Financial Performance
+- Customer Analytics
+- Supplier Performance
 
 ---
 
-## Data Model
+# Technology Stack
 
-The solution follows a Star Schema architecture.
+| Technology | Purpose |
+|------------|---------|
+| Microsoft Excel | Dashboard Development |
+| Power Query | ETL & Data Cleaning |
+| Power Pivot | Data Modelling |
+| DAX | KPI Calculations |
+| PivotTables | Data Aggregation |
+| PivotCharts | Data Visualization |
+| Slicers | Interactive Filtering |
 
-### Fact Tables
+---
+
+# Solution Architecture
+
+```
+Raw Data
+      │
+      ▼
+Power Query
+      │
+      ▼
+Data Cleaning
+      │
+      ▼
+Star Schema Data Model
+      │
+      ▼
+Power Pivot Relationships
+      │
+      ▼
+DAX Measures
+      │
+      ▼
+Pivot Tables
+      │
+      ▼
+Interactive Dashboards
+```
+
+---
+
+# Data Model
+
+## Fact Tables
 
 - FactSales
 - FactProduction
 - FactInventory
-- FactExpenses
 - FactPayments
+- FactExpenses
 
-### Dimension Tables
+## Dimension Tables
 
 - DimDate
 - DimCustomer
@@ -59,13 +116,21 @@ The solution follows a Star Schema architecture.
 
 ---
 
-## Dashboards
+# Dashboard Gallery
 
-### Executive Dashboard
+## Dashboard Index
 
-Provides an executive overview of organisational performance.
+![](Images/Dashboard_Index.png)
 
-KPIs include:
+---
+
+## Executive Dashboard
+
+![](Images/Executive_Dashboard.png)
+
+Provides an executive overview of organizational performance.
+
+### KPIs
 
 - Total Revenue
 - Gross Profit
@@ -76,9 +141,11 @@ KPIs include:
 
 ---
 
-### Sales Dashboard
+## Sales Dashboard
 
-Tracks:
+![](Images/Sales_Dashboard.png)
+
+### Key Insights
 
 - Monthly Revenue
 - Revenue by Product
@@ -87,31 +154,37 @@ Tracks:
 
 ---
 
-### Production Dashboard
+## Production Dashboard
 
-Tracks:
+![](Images/Production_Dashboard.png)
 
-- Monthly Production
-- Waste
+### Key Insights
+
+- Production Volume
+- Waste Analysis
 - Production Cost
 - Production Hours
 
 ---
 
-### Inventory Dashboard
+## Inventory Dashboard
 
-Tracks:
+![](Images/Inventory_Dashboard.png)
 
-- Stock Balance
+### Key Insights
+
 - Inventory Value
-- Supplier Performance
+- Stock Balance
 - Inventory Movement
+- Supplier Inventory
 
 ---
 
-### Finance Dashboard
+## Finance Dashboard
 
-Tracks:
+![](Images/Finance_Dashboard.png)
+
+### Key Insights
 
 - Revenue
 - Expenses
@@ -120,20 +193,24 @@ Tracks:
 
 ---
 
-### Customer Dashboard
+## Customer Dashboard
 
-Tracks:
+![](Images/Customer_Dashboard.png)
+
+### Key Insights
 
 - Customer Revenue
-- Customer Segments
-- Collections
+- Customer Segmentation
+- Payment Analysis
 - Outstanding Balances
 
 ---
 
-### Supplier Dashboard
+## Supplier Dashboard
 
-Tracks:
+![](Images/Supplier_Dashboard.png)
+
+### Key Insights
 
 - Purchase Value
 - Purchase Quantity
@@ -142,50 +219,115 @@ Tracks:
 
 ---
 
-## Skills Demonstrated
+# Key Features
 
-- ETL using Power Query
-- Data Cleaning
-- Data Modelling
-- Star Schema Design
-- DAX Calculations
-- KPI Design
-- Dashboard Development
-- Business Intelligence Reporting
-- Interactive Excel Dashboards
+- Automated ETL using Power Query
+- Star Schema Data Model
+- DAX KPI Engine
+- Seven Interactive Dashboards
+- Executive KPI Cards
+- Dynamic Pivot Charts
+- Cross-filtering Slicers
+- Dashboard Navigation Menu
+- Standardized Dashboard Layout
+- Interactive Business Reporting
 
 ---
 
-## Repository Structure
+# Skills Demonstrated
 
-```text
-Excel Dashboard/
-Documentation/
-Images/
-Power BI Version/
+- Business Intelligence
+- Data Analytics
+- Data Cleaning
+- ETL Development
+- Data Modelling
+- Star Schema Design
+- DAX Development
+- Dashboard Design
+- KPI Development
+- Excel Automation
+- Data Visualization
+- Executive Reporting
+
+---
+
+# Repository Structure
+
+```
+enterprise-manufacturing-bi-system-excel
+│
+├── README.md
+├── LICENSE
+│
+├── Excel Dashboard
+│     ├── EMBIS_Dashboard.xlsx
+│     └── EMBIS_Sample_Dataset.xlsx
+│
+├── Documentation
+│     ├── EMBIS_Case_Study.pdf
+│     ├── Project_Overview.pdf
+│     ├── Data_Dictionary.xlsx
+│     ├── ERD.png
+│     ├── Data_Model.png
+│     ├── KPI_Catalogue.xlsx
+│     ├── Technical_Architecture.pdf
+│     └── Dashboard_User_Guide.pdf
+│
+├── Images
+│     ├── Dashboard_Index.png
+│     ├── Executive_Dashboard.png
+│     ├── Sales_Dashboard.png
+│     ├── Production_Dashboard.png
+│     ├── Inventory_Dashboard.png
+│     ├── Finance_Dashboard.png
+│     ├── Customer_Dashboard.png
+│     └── Supplier_Dashboard.png
+│
+└── Power BI Version
+      └── Coming_Soon.md
 ```
 
 ---
 
-## Future Enhancements
+# Future Enhancements
 
-- Power BI implementation
-- SQL Server backend
-- Automated refresh
-- Python integration
-- Forecasting models
+- Power BI Version
+- SQL Database Integration
+- Automated Data Refresh
+- Python Data Pipeline
+- Forecasting Models
+- Executive Scorecards
+- Predictive Analytics
 
 ---
 
-## Author
+# About the Author
 
-**Jack Kisutsa**
+## Jack Nimrod Kisutsa
 
-Business Intelligence | Business Analyst | Data Analytics
+Business Intelligence Analyst | Business Analyst | Data Analytics
 
-LinkedIn:
-(https://www.linkedin.com/in/jack-kisutsa)
+**Skills**
 
-GitHub:
+- Microsoft Excel
+- Power Query
+- Power Pivot
+- DAX
+- SQL
+- Power BI
+- Data Visualization
+- Dashboard Development
+
+**GitHub**
+
 https://github.com/kisutsajack-ai
 
+---
+
+# License
+
+This project is licensed under the MIT License.
+
+---
+
+### ⭐ If you found this project interesting, consider giving it a star on GitHub.
