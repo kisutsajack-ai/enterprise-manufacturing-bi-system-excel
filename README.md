@@ -1,3 +1,5 @@
+![Uploading Dashboard_Index.png…]()
+
 # Enterprise Manufacturing Business Intelligence System (EMBIS)
 
 ## Project Overview
