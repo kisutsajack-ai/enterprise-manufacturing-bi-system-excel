@@ -303,7 +303,7 @@ enterprise-manufacturing-bi-system-excel
 
 # About the Author
 
-## Jack Nimrod Kisutsa
+## Jack Kisutsa
 
 Business Intelligence Analyst | Business Analyst | Data Analytics
 
