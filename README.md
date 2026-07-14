@@ -261,7 +261,7 @@ enterprise-manufacturing-bi-system-excel
 │
 ├── Excel Dashboard
 │     ├── EMBIS_Dashboard.xlsx
-│     └── EMBIS_Sample_Dataset.xlsx
+│     └── EMBIS_Data_Source.xlsx
 │
 ├── Documentation
 │     ├── EMBIS_Case_Study.pdf
