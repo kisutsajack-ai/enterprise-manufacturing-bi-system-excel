@@ -53,29 +53,19 @@ EMBIS solves this challenge by integrating operational data into a centralized r
 Management needed one reporting environment capable of answering questions such as:
 
 - Are revenue and profitability improving?
-
 - Which products and customers generate the most value?
-
 - How efficiently is production converting inputs into output?
-
 - Where are waste, stock, expense, or payment risks emerging?
-
 - Which suppliers and customers require management attention?
 
-Approach
+# Approach
 
 1. Structured the raw operational data into five fact tables and six shared dimensions.
-
 2. Used Power Query to clean, standardize, and prepare repeatable data transformations.
-
 3. Built a star-schema model in Power Pivot.
-
 4. Created reusable DAX measures for revenue, profit, margin, production, inventory, expenses, payments, and outstanding balances.
-
 5. Developed PivotTable analytical layers and seven role-based dashboards.
-
 6. Added navigation, slicers, KPI cards, and consistent page layouts.
-
 7. Produced a governance pack covering requirements, data definitions, KPIs, architecture, traceability, and user guidance.
    
 ---
@@ -250,13 +240,9 @@ Provides an executive overview of organizational performance.
 The system enables decision-makers to:
 
 - Trace headline financial performance back to products, customers, regions, and operational activity.
-
 - Compare production output with waste, cost, and machine activity.
-
 - Identify inventory movement and stock-balance patterns requiring intervention.
-
 - Monitor departmental expenditure alongside payments and outstanding balances.
-
 - Prioritize high-value customers and suppliers using consistent performance measures.
 
 The repository uses a demonstration dataset; therefore, insights illustrate the analytical capability of the system rather than the performance of a real company.
@@ -264,15 +250,10 @@ The repository uses a demonstration dataset; therefore, insights illustrate the 
 # Recommendations
 
 - Establish monthly KPI review meetings using the Executive Dashboard as the control page.
-
 - Investigate products with strong revenue but weak margin, high waste, or high production cost.
-
 - Set inventory thresholds and exception alerts for slow-moving or vulnerable stock.
-
 - Segment customer follow-up according to revenue contribution and outstanding balances.
-
 - Use supplier spend and delivery patterns to support sourcing and negotiation decisions.
-
 - Assign KPI owners and refresh responsibilities to preserve reporting governance.
 
 # Business Value
@@ -367,20 +348,6 @@ enterprise-manufacturing-bi-system-excel
 └── Power BI Version
       └── Coming_Soon.md
 ```
-
----
-
-# Future Enhancements
-
-- Power BI Version
-- SQL Database Integration
-- Automated Data Refresh
-- Python Data Pipeline
-- Forecasting Models
-- Executive Scorecards
-- Predictive Analytics
-
----
 
 # About the Author
 
