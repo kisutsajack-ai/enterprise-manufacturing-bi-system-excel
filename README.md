@@ -235,6 +235,8 @@ Provides an executive overview of organizational performance.
 - Supplier Spend
 - Procurement Trends
 
+---
+
 # Insights
 
 The system enables decision-makers to:
