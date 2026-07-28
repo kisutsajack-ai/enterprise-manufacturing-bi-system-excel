@@ -352,6 +352,8 @@ enterprise-manufacturing-bi-system-excel
 
 ```
 
+---
+
 # About the Author
 
 ## Jack Kisutsa
